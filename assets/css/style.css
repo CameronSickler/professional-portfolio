@@ -101,16 +101,44 @@ header nav {
 
  /* end styles to hero */
 
+#about-me {
+    display: flex;
+    margin-top: 10px;
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+}
+
 .section-title-container {
+    width: 180px; 
     margin: 10px;
     padding: 10px;
     border-right: 3px solid var(--tertiary-color);
-    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: right;
+    
 }
 
 .section-title-container h3 {
     font-size: 32px;
     color: var(--tertiary-color);
     padding: 8px;
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* end about me section */
+
+
+
+/* begin work section */
+
+#work {
+    display: flex;
 }
