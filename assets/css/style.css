@@ -60,3 +60,40 @@ header nav {
     font-size: 1.77vw;
     border-bottom: 2px solid var(--primary-color);
  }
+
+ /* end styles to header */
+
+
+
+
+/* begin styles to section */
+
+
+
+/* begin hero styles */
+
+.hero {
+    padding: 80px;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+
+.hero-quote {
+    margin: 10px;
+}
+
+.hero-quote h2 {
+    padding: 10px;
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    display: flex;
+}
+
+
+
+ /* begin styles to hero */
