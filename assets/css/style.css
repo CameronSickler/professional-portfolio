@@ -142,3 +142,13 @@ header nav {
 #work {
     display: flex;
 }
+
+.project1-image-container img {
+    width: 500px;
+    height: 250px;
+}
+
+.project-other-container img {
+    width: 250px;
+    height: 250px;
+}
