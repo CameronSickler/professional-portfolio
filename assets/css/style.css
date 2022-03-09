@@ -152,3 +152,33 @@ header nav {
     width: 250px;
     height: 250px;
 }
+
+/* end work section */
+
+
+/* begin contact me section */
+
+#contact-me {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+
+footer ul {
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     list-style: none;
+     align-items: center;
+}
+
+footer ul li p {
+    padding: 5px 5px;
+    margin: 0px 20px;
+    color: var(--tertiary-color);
+    font-size: 1.77vw;
+    border-bottom: 2px solid var(--tertiary-color);
+    font-style: none;
+}
