@@ -138,32 +138,27 @@ header nav ul li a {
 
 /* begin work section */
 
-#work {
+.work {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
+.projects {
+    padding: 10px 10px;
+}
+
 .project1 {
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    margin: auto auto;
+    border: 5px solid var(--tertiary-color);
     position: relative;
-    width: 800px;
+}
+
+.project1 img {
+    width: 70%;
     height: 400px;
-    border: 5px solid var(--tertiary-color);
-}
-
-
-.project2 img, .project3 img, .project4 img, .project5 img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 400px;
-    height: 300px;
-    border: 5px solid var(--tertiary-color);
-}
-
-.project2, .project3, .project4, .project5 {
-    position: relative;
 }
 
 .project1-text {
@@ -175,7 +170,19 @@ header nav ul li a {
     border: 3px solid var(--tertiary-color);
 }
 
-.project2-text, .project3-text, .project4-text, .project5-text { 
+.other-project {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.other-project img {
+    height: 200px;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.other-project-text {
     position: absolute;
     bottom: 80px;
     left: 2px;
@@ -183,6 +190,7 @@ header nav ul li a {
     background-color: var(--primary-color);
     border: 3px solid var(--tertiary-color);
 }
+
 
 /* end work section */
 
