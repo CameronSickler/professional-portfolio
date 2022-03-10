@@ -97,35 +97,38 @@ header nav ul li a {
  /* about me start */
 
 #about-me {
+    margin:  20px auto;
     display: flex;
-    margin: 10px auto;
 }
 
-.profile-picture {
-    width: 180px;
-    height: 180px;
-}
-
-.section-title-container {
+.section-titles {
     width: 180px; 
     margin: 10px;
     padding: 10px;
-    border-right: 3px solid var(--tertiary-color);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: right;
-    
+    border-right: 3px solid var(--tertiary-color); 
 }
 
-.section-title-container h3 {
+.section-titles h3 {
     font-size: 32px;
     color: var(--tertiary-color);
     padding: 8px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
+
+.profile-picture {
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--tertiary-color);
+}
+
+.bio p {
+    
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
 
 
 /* end about me section */
