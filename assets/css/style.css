@@ -101,9 +101,11 @@ header nav {
 
  /* end styles to hero */
 
+ /* about me start */
+
 #about-me {
     display: flex;
-    margin-top: 10px;
+    margin: 10px auto;
 }
 
 .profile-picture {
@@ -143,14 +145,46 @@ header nav {
     display: flex;
 }
 
-.project1-image-container img {
-    width: 500px;
-    height: 250px;
+.project-containers {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.project-other-container img {
+.project1 img {
+    width: 530px;
+    height: 250px;
+    border: 5px solid var(--tertiary-color);
+}
+
+
+.project2 img, .project3 img, .project4 img, .project5 img {
     width: 250px;
     height: 250px;
+    border: 5px solid var(--tertiary-color);
+}
+
+.project1, .project2 {
+    position: relative;
+}
+
+.project1-text {
+    position: absolute;
+    bottom: 40px;
+    left: 2px;
+    padding: 5px;
+    background-color: var(--primary-color);
+    border: 3px solid var(--tertiary-color);
+}
+
+.project2-text { 
+    position: absolute;
+    bottom: 80px;
+    left: 2px;
+    padding: 5px;
+    background-color: var(--primary-color);
+    border: 3px solid var(--tertiary-color);
 }
 
 /* end work section */
