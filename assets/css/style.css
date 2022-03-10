@@ -74,25 +74,20 @@ header nav ul li a {
 /* begin hero styles */
 
 .hero {
-    padding: 80px;
+    padding: 100px;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-attachment: fixed;
+    position: relative;
 }
 
 .hero-quote {
-    margin: 10px;
-}
-
-.hero-quote h2 {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
     padding: 10px;
     color: var(--primary-color);
     background-color: var(--tertiary-color);
-    display: flex;
 }
 
 
