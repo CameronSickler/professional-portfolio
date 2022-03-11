@@ -116,6 +116,7 @@ header nav ul li a {
 }
 
 .section-titles {
+    display: flex;
     width: 150px;
     margin: 10px;
     border-right: 3px solid var(--tertiary-color); 
@@ -125,6 +126,10 @@ header nav ul li a {
     font-size: 32px;
     color: var(--tertiary-color);
     padding: 8px;
+}
+
+.bio {
+    display: flex;
 }
 
 .portfolio-pic {
@@ -181,8 +186,9 @@ header nav ul li a {
 /* end project1 runbuddy styles */
 
 
-.other-projects {
+.other-projects-container {
     width: 100%;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
