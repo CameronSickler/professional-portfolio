@@ -15,8 +15,8 @@ Repo contains README w/ description, screenshot, and link to deployed applicatio
 
 ScreenShot:
 
-Insert Screenshot HERE!
+
 
 Link to Deployed Application:
 
-Insert Link to Deployed Application HERE!
+https://cameronsickler.github.io/professional-portfolio/
