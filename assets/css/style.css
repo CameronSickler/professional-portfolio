@@ -14,15 +14,15 @@
 
 /* helper styles */
 
-  .border {
+  /* .border {
       border: 4px dotted orange;
       margin: 5px;
       padding: 5px;
-  }
+  } */
 
-  .flex {
+  /* .flex {
       display: flex;
-  }
+  } */
 
 /* end helper styles */
 
@@ -77,6 +77,12 @@ header nav ul li a {
     border-bottom: 2px solid var(--primary-color);
  }
 
+ header nav ul li a:hover {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 10px;
+ }
+
  /* end styles to header */
 
 
@@ -113,19 +119,21 @@ header nav ul li a {
 
 #about-me {
     margin:  20px auto;
+    display: flex;
 }
 
 .section-titles {
     display: flex;
-    width: 150px;
-    margin: 10px;
+    width: 200px;
+    text-align: end;
+    margin: 15px;
     border-right: 3px solid var(--tertiary-color); 
 }
 
 .section-titles h3 {
     font-size: 32px;
     color: var(--tertiary-color);
-    padding: 8px;
+    padding: 10px;
 }
 
 .bio {
@@ -156,6 +164,7 @@ header nav ul li a {
 
 #work {
     margin:  20px auto;
+    display: flex;
 }
 
 .projects {
@@ -170,9 +179,13 @@ header nav ul li a {
     position: relative;
 }
 
+.project1:hover {
+    opacity: 50%;
+}
+
 .project1 img {
     width: 100%;
-    height: 400px;
+    height: 390px;
 }
 
 .project1-text {
@@ -188,6 +201,7 @@ header nav ul li a {
 
 .other-projects-container {
     width: 100%;
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -196,13 +210,18 @@ header nav ul li a {
 .other-project {
     width: 45%;
     height: 400px;
+    margin: 10px;
     border: 5px solid var(--tertiary-color);
     position: relative;
 }
 
+.other-project:hover {
+    opacity: 50%;
+}
+
 .other-project-pic {
     width: 100%;
-    height: 400px;
+    height: 390px;
 }
 
 .other-project-text {
@@ -223,6 +242,7 @@ header nav ul li a {
 
 #contact-me {
     margin:  20px auto;
+    display: flex;
 }
 
 footer {
