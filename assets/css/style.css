@@ -183,7 +183,7 @@ header nav ul li a {
     position: relative;
 }
 
-.project1:hover {
+.project1-pic:hover {
     opacity: 50%;
 }
 
@@ -192,7 +192,7 @@ header nav ul li a {
     height: 390px;
 }
 
-.project1-text {
+.project1-text, .project1-text:hover {
     position: absolute;
     bottom: 80px;
     left: 2px;
@@ -219,7 +219,7 @@ header nav ul li a {
     position: relative;
 }
 
-.other-project:hover {
+.other-project-pic:hover {
     opacity: 50%;
 }
 
@@ -228,7 +228,7 @@ header nav ul li a {
     height: 390px;
 }
 
-.other-project-text {
+.other-project-text, .other-project-text:hover {
     position: absolute;
     bottom: 80px;
     left: 2px;
