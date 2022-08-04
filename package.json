@@ -1,0 +1,20 @@
+{
+  "name": "professional-portfolio",
+  "version": "1.0.0",
+  "description": "CSS Module 2 Assignment - Create a professional portfolio using HTML & Advanced CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronSickler/professional-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CameronSickler/professional-portfolio/issues"
+  },
+  "homepage": "https://github.com/CameronSickler/professional-portfolio#readme"
+}
